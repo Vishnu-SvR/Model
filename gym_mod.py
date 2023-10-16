@@ -1,3 +1,8 @@
+import subprocess
+
+# Install streamlit
+subprocess.call(["pip", "install", "streamlit"])
+
 pip install streamlit
 pip install stramlit opencv-python
 pip install streamlit cvzone
