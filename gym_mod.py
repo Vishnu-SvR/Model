@@ -1,6 +1,7 @@
-pip3 install stramlit opencv-python
-pip3 install streamlit cvzone
-pip3 install streamlit ultralytics
+pip install streamlit
+pip install stramlit opencv-python
+pip install streamlit cvzone
+pip install streamlit ultralytics
 
 import cv2
 import math
