@@ -56,6 +56,7 @@
 # if __name__ == "__main__":
 #     main()
 
+apt-get update && apt-get install -y python3-opencv
 import streamlit as st
 import cv2
 
