@@ -83,8 +83,14 @@
 #     main()
 
 
-pip install opencv-python streamlit Pillow
+# pip install opencv-python streamlit Pillow
+import subprocess
 
+# Define the command to install Streamlit using pip
+install_command = 'pip install opencv-python streamlit Pillow'
+
+# Use subprocess to run the command
+subprocess.call(install_command, shell=True)
 import cv2
 
 def brighten_image(image, amount):
