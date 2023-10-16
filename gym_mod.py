@@ -2,9 +2,9 @@ import subprocess
 
 # Install streamlit
 subprocess.call(["pip", "install", "streamlit"])
-subprocess.call(["pip", "install","streamlit", "opencv-python"])
-subprocess.call(["pip", "install","streamlit", "cvzone"])
-subprocess.call(["pip", "install","streamlit", "ultralytics"])
+subprocess.call(["pip", "install", "opencv-python"])
+subprocess.call(["pip", "install", "cvzone"])
+subprocess.call(["pip", "install", "ultralytics"])
 
 # pip install streamlit
 # pip install stramlit opencv-python
