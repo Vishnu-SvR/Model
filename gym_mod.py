@@ -2,11 +2,14 @@ import subprocess
 
 # Install streamlit
 subprocess.call(["pip", "install", "streamlit"])
+subprocess.call(["pip", "install", "opencv-python"])
+subprocess.call(["pip", "install", "cvzone"])
+subprocess.call(["pip", "install", "ultralytics"])
 
-pip install streamlit
-pip install stramlit opencv-python
-pip install streamlit cvzone
-pip install streamlit ultralytics
+# pip install streamlit
+# pip install stramlit opencv-python
+# pip install streamlit cvzone
+# pip install streamlit ultralytics
 
 import cv2
 import math
