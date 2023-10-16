@@ -1,21 +1,3 @@
-import subprocess
-
-# Define the command to install Streamlit using pip
-install_command = 'pip install streamlit'
-
-# Use subprocess to run the command
-subprocess.call(install_command, shell=True)
-
-install_command = 'pip install opencv-python'
-subprocess.call(install_command, shell=True)
-
-install_command = 'pip install cvzone'
-subprocess.call(install_command, shell=True)
-# pip install streamlit
-# pip install stramlit opencv-python
-# pip install streamlit cvzone
-# pip install streamlit ultralytics
-subprocess.call(["pip", "install", "streamlit"])
 import streamlit as st
 import cv2
 import math
