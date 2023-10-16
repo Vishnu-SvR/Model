@@ -12,7 +12,7 @@ subprocess.call(install_command, shell=True)
 install_command = 'pip install cvzone'
 subprocess.call(install_command, shell=True)
 
-install_command = 'pip install ultralytics'
+install_command = 'pip install matplotlib'
 subprocess.call(install_command, shell=True)
 
 # pip install streamlit
